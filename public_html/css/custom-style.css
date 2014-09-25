@@ -1,32 +1,66 @@
 div{
     border-style: solid;
     border-width: 5px;
-    border-color: lightgray;
+    border-color: #000106;
     padding: 30px;
 }
 
 .container{
-    border-color: lightgray;
+    border-color: #000106;
 }
 
 .row{
-    border-color:lightgray ;
+    border-color:#000106;
 }
 
 body{
-    background-image: url(http://imageek.biz/images/23845-cool-lightning-storms.jpg);
+    background-image: url(http://3.bp.blogspot.com/_bsfahNTj3tk/TUkXqp1otjI/AAAAAAAABDM/efmFzpnV-1A/s1600/space_bokeh_background_awake_seamless_tile_pattern_pattterns_tiles.jpg);
     background-size: cover;
 }
 
 p{
     color: whitesmoke;
+    font-size: large;
+    font-style: oblique;
 }
 
-.container{
-    
+.list-group-item{
+    border: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #technology{
-    background-image: url(http://www.cssdebutant.com/include/images/css-code4.jpg);
+    background-image: url(http://0.s3.envato.com/files/15423029/dIMG_36f41.jpg);
+    background-size: cover;
+}
+
+ h1{
+    margin-left: 45%;
+    font-style: oblique;
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+ #project
+h1{
+    font-size: xx-large;
+    font-style: oblique
+}
+
+ #technology p {
+    color: whitesmoke;
+    font-size: xx-large;
+    font-style: oblique;
+}
+
+ #technology
+img {
+    width: 250px;
+    height: auto;
+}
+
+#project img {
+    background-image: url(http://images.autospeed.pics/automobile/1080phdwallpapers.com/wp-content/uploads/2011/06/green-nuclear-danger-1080p-hd-wallpaper.jpg);
     background-size: cover;
 }
