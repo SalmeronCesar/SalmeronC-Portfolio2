@@ -6,29 +6,54 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <!--Technology-Portfolio 2 will appear on my Technology page as the the current page name.-->
         <title>Technology-Portfolio 2</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link type="text/css" rel="stylesheet" href="css/custom-style.css">
+        <!--These links link to the Bootstraps Css which helps you create code like
+        colors fonts and for describing your web pages-->
+         <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
+         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+         <link type="text/css" rel="stylesheet" href="css/custom-style.css">
     </head>
-    <body id="technology">
-        <h1 class="uppercase">Technology</h1>
-        <nav>
-            <a id="current-link" href="technology.html">Technology</a>
-            <a href="index.html">About Me</a>
-            <a href="projects.html">Projects</a>
-        </nav>
+    
+    <!--id tells HTML that this is a certain link that is connected to the website.-->
+    <body id="technology">   
+        <!--h1 is the 1st header and appears after the title most of the time
+        depending on where you put it.-->
+        <h1>Technology</h1>
         
-        <img src="http://www.teamstudio.com/Portals/218295/images/bootstrap-logo.png"> 
+        <!--ul is basicly like another nav but instead of a nav it acts as a supporter
+        that helps make the navagation system called nav-pills.-->
+         <ul class="nav nav-pills">
+             <!--li is basiclly another way to say <a but in a different version 
+             and the html links are links connected to the project making a nav bar.
+             Also class="active is really saying current link but in a different version-->
+            <li class="active"><a href="technology.html">Technology</a></li>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="projects.html">Project</a></li>
+        </ul>
+        
+        <!--This <img is a image link that connects to this current page which is
+        the Technology page-->
+        <img src="http://www.teamstudio.com/Portals/218295/images/bootstrap-logo.png">
+        
+        <!--Here im  saying what i think Bootstrap is and <p> means paragraph.--> 
         <p>Bootstrap is a collection of data to make websites and apps and also by using HTML 
             and CSS.</p>
         
+        <!--Here im saying what i think HTML is to me.-->
         <img src="http://blog.computercompany.net/wp-content/uploads/2014/07/HTML5logo.png">
         <p>HTML stands for HyperText Markup Language.HTML is the languaage for
             describing the structure of Web pages.</p>
         
+        <!--Here im saying what i think CSS is.-->
         <img src="http://www.boylesoftware.com/blog/wp-content/uploads/2014/07/280x250_css3_logo.jpg">
         <p>CSS stands for Cascading Style Sheets.CSS is the language for descibing
             the presentation of Web pages, including colors, layouts, and fonts.</p>
+        
+        <!--This is a link to Java;another program similar to Bootstrap.-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

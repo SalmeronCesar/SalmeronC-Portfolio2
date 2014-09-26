@@ -1,24 +1,33 @@
+/*I put div beacause i want to change the way the font is and how the border style
+is and padding to add space.Also *to change the font size and stye.*/
 div{
     border-style: solid;
     border-width: 5px;
     border-color: #000106;
     padding: 30px;
+    font-size: x-large;
+    font-style: oblique;
 }
-
+/*container is the container */
 .container{
     border-color: #000106;
 }
-
-.row{
+/*.row p is on the index.html on the row border and changes the writing in the paragraph
+and changes the color, border color of the row.Also changes the font size and style and puts it more to the left.*/
+.row p{
+    color: whitesmoke;
     border-color:#000106;
+    font-style: oblique;
+    font-size: x-large;
+    margin-left: 5%;
 }
-
+/*Body links to the index.html and put a background image and puts the background size to cover.*/
 body{
     background-image: url(http://3.bp.blogspot.com/_bsfahNTj3tk/TUkXqp1otjI/AAAAAAAABDM/efmFzpnV-1A/s1600/space_bokeh_background_awake_seamless_tile_pattern_pattterns_tiles.jpg);
     background-size: cover;
 }
-
-p{
+/*p means pargraph and im changing the color and font size and style.*/
+p {
     color: whitesmoke;
     font-size: large;
     font-style: oblique;
@@ -29,25 +38,26 @@ p{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
+/*# is a link that i id which links to the technology page and puts a background image and size.*/
 #technology{
     background-image: url(http://0.s3.envato.com/files/15423029/dIMG_36f41.jpg);
     background-size: cover;
 }
-
+/*h1 is the 1st header in my index page and puts it more to the left and changes the 
+font style and size and also changes the color. */
  h1{
-    margin-left: 45%;
+    margin-left: 15%;
     font-style: oblique;
-    font-size: xx-large;
+    font-size: x-large;
     color: whitesmoke;
 }
-
+/*# is a link that is a id and goes to the 1st header and changes the font size and style. */
  #project
 h1{
     font-size: xx-large;
     font-style: oblique
 }
-
+/*is a link  to the technology page that changes the color and font size and style thats connected to the paragraph.*/
  #technology p {
     color: whitesmoke;
     font-size: xx-large;
@@ -60,7 +70,36 @@ img {
     height: auto;
 }
 
-#project img {
+#project {
     background-image: url(http://images.autospeed.pics/automobile/1080phdwallpapers.com/wp-content/uploads/2011/06/green-nuclear-danger-1080p-hd-wallpaper.jpg);
     background-size: cover;
 }
+
+.row img{
+    width: 200px;
+    height: auto;
+}
+
+h2{
+    color: whitesmoke;
+    font-style: oblique;
+    font-size: x-large;
+}
+/*row div is a certain border that connects to the div and changes the color and font style aand size.*/
+.row div{
+    color: whitesmoke;
+    font-style: oblique;
+    font-size: x-large;
+}
+/*jumbotron makes your words appear bigger.*/
+.jumbotron {
+    background-color: #000108;
+}
+/*jumbotron paragraph changes its color and font style and size.Also is puts it a little bit to the left.*/
+.jumbotron p{
+    color: whitesmoke;
+    font-style: oblique;
+    font-size: large;
+    margin-left: 30%;
+}
+

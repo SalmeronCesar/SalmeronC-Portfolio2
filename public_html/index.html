@@ -9,44 +9,90 @@ and open the template in the editor.
         <title>Cesar Salmeron-Portfolio 2</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--These links link to the Bootstraps Css which helps you create code like
+        colors fonts and for describing your web pages-->
         <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
         <link type="text/css" rel="stylesheet" href="css/custom-style.css">
     </head>
     <body>
-        <h1 class="uppercase">About Me</h1>
+        <!--ul is basicly like another nav but instead of a nav it acts as a supporter
+        that helps make the navagation system called nav-pills.-->
+        <ul class="nav nav-pills">
+             <!--li is basiclly another way to say <a but in a different version 
+             and the html links are links connected to the project making a nav bar.
+             Also class="active is really saying current link but in a different version-->
+  <li class="active"><a href="index.html">About Me</a></li>
+  <li><a href="projects.html">Projects</a></li>
+  <li><a href="technology.html">Technology</a></li>
+</ul>
+   <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+    Technology
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="technology.html">Bootstrap</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="technology.html">HTML</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="technology,html">CSS</a></li>
+    <li role="presentation" class="divider"></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+  </ul>
+</div>     
+        <!--class="container" is like a border that goes on website but its visible.-->
         <div class="container">
-            <p> Hello my name is Cesar Salmeron. I was born on August 6,2000 and currently 14 years old.Also,Im currently a 9th grader
-                in Pasadena High School.Don't forget Im in the<a href="http://theappacademy.us">
-                App Academy,</a> in which we learn computer science,like creating
-                our own websites and designing them.In my free time i like to
-                play soccer,play video games,go outside and walk or jog and of course
-                working and learning more about computer science. </p>
+        <!--h1 is 1st header and my 1st header wil be About Me on the top of my About Me page.
+        Also jumbotron is a class that makes your website stand out more than othere as in bigger
+        words to attract viewers.-->
+            <div class="jumbotron">
+  <h1>Hello and welcome to my website!</h1>
+  <p></p>This is my About Me page and look all the cool stuff i can do and how awesome I am!
+</div>
+            <!--class="row" is like a row or a rectangular space inside of the container 
+            giving you another border called the row-->
             <div class="row">
-                <p>row</p>
+                
+                <!--h2 means 2nd header and what i wrote here will be on my About me
+                page and this 2nd header will be after my 1st header-->
+                <h2>Hello my name is Cesar Salmeron. I was born on August 6,2000 and currently 14 years old.Also,Im currently a 9th grader
+                in Pasadena High School.</h2>
+                
+                <!--class="col-xs-10" is a column inside of a row making a more paragraph
+                look to it and xs is extra small and 10 is the limited space for the column
+                that adds up to 12.-->
                 <div class="col-xs-10">
-                    <p>col-xs-10</p>
+                    
+                <!--<p> means paragraph this App Academy will appear on my About Me page.-->
+                    <p>App Academy</p>
                     <div class="row">
-                        <p>row</p>
-                        <div class="col-xs-3"></div>
-                        <div class="col-xs-9"></div>
+                        
+                        <!--<img-rounded makes the image have rounded edges instead of sharp edges.-->
+                        <div class="col-xs-3"><img class="img-responsive img-rounded" src="http://www.pasedfoundation.org/modules/toc/uploads/images/topics/tid326_appacademyblackgrey_small_cd9a1f78_d833_d36f_u1.jpg"></div>
+                        <!-- col is a column and 9 is the limited space is has to the 
+                        total of 12.Also <a href="http://theappacademy.us"> mean when 
+                        click on the App Academy on my About Me page,it will send you
+                        to the App Academy's official main page.-->
+                        <div class="col-xs-9">Im in the<a href="http://theappacademy.us">
+                          App Academy,</a> in which we learn computer science,like creating
+                           our own websites and designing them.</div>
                     </div>
                     <div class="row">
-                        <p>row</p>
+                        <p>Hobbies</p>
                         <div class="col-xs-3">
-                            <img class="img-responsive img-rounded" src="http://media.nbclosangeles.com/images/1200*675/downtown+los+angeles+skyline+night.jpg">
+                            <img class="img-responsive img-rounded" src="http://c.fastcompany.net/multisite_files/fastcompany/imagecache/inline-large/inline/2013/12/3022879-inline-s-6-2013-fifa-world-cup-brasil-ball.jpg">
                         </div>
-                        <div class="col-xs-9"></div>
+                        <div class="col-xs-9">In my free time i like to
+                           play soccer,play video games,go outside and walk or jog and of course
+                           working and learning more about computer science.</div>
                     </div>
                 </div>
                 <div class="col-xs-2">
-                    <nav class="list-group">
-                    <a class="list-group-item" href="index.html">About Me</a>
-                    <a class="list-group-item" href="projects.html">Projects</a>
-                    <a class="list-group-item" href="technology.html">Technology</a>
-                    </nav>
+                    <img class="img-responsive img-rounded" src="http://amfootball.isport.com/images//picture/thumbnails/Img_674181_251559_160x120.jpg">
                 </div>
             </div>
         </div>
+        <!--This is a link to Java;another program similar to Bootstrap.-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

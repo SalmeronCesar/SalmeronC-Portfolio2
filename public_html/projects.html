@@ -6,17 +6,42 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <!--Projects-Portfolio 2 is going to appear on my Projects page as the websites page name.-->
         <title>Projects-Portfolio 2</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link type="text/css" rel="stylesheet" href="css/custom-style.css">
+        <!--These links link to the Bootstraps Css which helps you create code like
+        colors fonts and for describing your web pages-->
+         <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
+         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+         <link type="text/css" rel="stylesheet" href="css/custom-style.css">
     </head>
+    <!--id is telling HTML that this link is connected to my website.-->
     <body id="project">
+        <!--ul is basicly like another nav but instead of a nav it acts as a supporter
+        that helps make the navagation system called nav-pills.-->
+        <ul class="nav nav-pills">
+             <!--li is basiclly another way to say <a but in a different version 
+             and the html links are links connected to the project making a nav bar.
+             Also class="active is really saying current link but in a different version-->
+            <li class="active"><a href="projects.html">Projects</a></li>
+            <li><a href="technology.html">Technology</a></li>
+            <li><a href="index.html">About Me</a></li>
+        </ul>
+        <!--h1 means 1st header and uppercase is saying that Project will be uppercased
+        and this is a link that connects to the Projects page.-->
         <h1 class="uppercase">Projects</h1>
-        <nav>
-            <a id="current-link" href="projects.html">Projects</a>
-            <a href="technology.html">Technology</a>
-            <a href="index.html">About Me</a>
-        </nav>
+        
+        <!-- <p> is actually meaning paragraph which is connected to the Projects
+        page on my website-->
+        <p>Im currently working on Portfolio 2 and next we the App Academy will 
+            be working on snake and mario.</p>
+        <!-- <img is a image link and portfolio 1 is a file that has been saved that i have in my documents.--> 
+        <img src="portfolio1.png">
+        <img src="portfolio2.png">
+        
+        <!--This is a link to Java;another program similar to Bootstrap.-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
