@@ -6,6 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <!--This is the Title pf the page-->
         <title>Jquery Page</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +17,7 @@ and open the template in the editor.
     </head>
     <body id="Jquery">
         <style type="text/css">body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-1/cur1.ani), url(http://cur.cursors-4u.net/cursors/cur-1/cur1.png), progress !important;}</style><a href="http://www.cursors-4u.com/cursor/2005/04/21/cur1-11.html" target="_blank" title="Electricity Lightning"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Electricity Lightning" style="position:absolute; top: 0px; right: 0px;" /></a>
+        <!--Is saying welcome and when you "hide" and press on this "Welcome" button the website will reappear-->
         <button id="show">Welcome</button>
         <div class="yeah">
             <h1>Jquery</h1>
@@ -28,6 +30,8 @@ and open the template in the editor.
             <li><a href="projects.html">Project</a></li>
             <li><a href="technology.html">Technology</a></li>
         </ul>
+            <div class="container">
+                <!--This is a container which sets a box around the whole page-->
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
 	<div class="flipper">
 		<div class="front">
@@ -35,18 +39,25 @@ and open the template in the editor.
                         using it is to make it easier to use JavaScript on your 
                         website.
 		</div>
+            <!--This is the front of the flipper side and the text above will appear on the front-->
 		<div class="back">
-			Jquery is a small JavaScript Library and the purpose of
+                    <a><img src="http://brandonrp.com/wp-content/uploads/2013/02/jquery-modern-logo.jpg">
+			<!--Jquery is a small JavaScript Library and the purpose of
                         using it is to make it easier to use JavaScript on your 
-                        website.
+                        website.-->
 		</div>
+            <!--This is the back flipper and the text above will appear on the back-->
 	</div>
 </div>
-            <p id="replaceWText">Jquery is </p>
-            <p id="removePara"></p>
-            <p id="randPara"></p>
+                <!--ReplaceWText the text with the one we put in Jquery-->
+                <!--RemovePara, this removes the paragraph in this case Jquery-->
+                <!--randPara adds another paragraph-->
+                <!--hide hides the website-->
+            <p id="replaceWText">Jquery</p>
+            <p id="removePara">Jquery</p>
+            <p id="randPara">RandPara</p>
             <p></p>
-            <p id="hide"></p>
+            <p id="hide"> hide</p>
         </div>
         
         <div id="Portfolio3">

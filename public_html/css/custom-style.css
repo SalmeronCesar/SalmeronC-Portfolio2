@@ -103,8 +103,9 @@ h2{
     margin-left: 30%;
 }
 
-#jquery{
-    
+#Jquery{
+    background-image: url("http://www.quicklycode.com/wp-content/images/jquery_wallpaper3.jpg");
+    background-size: cover;
 }
 
 #draggable{
@@ -173,5 +174,4 @@ h2{
 	.vertical.flip-container:hover .flipper {
 		transform: rotateX(-180deg);
 	}
-        
         

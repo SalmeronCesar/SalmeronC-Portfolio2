@@ -1,7 +1,7 @@
 $("document").ready(function() {
     $(".yeah").css("background-color", "blue");
 
-    $('p:last').css({"background-color": "", "color": "white"});
+    $('p:last').css({"background-color": "", "color": "blue"});
 
     $("h1").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
 
@@ -11,7 +11,7 @@ $("document").ready(function() {
     
     $('#randPara').bind('click',addAPara);
     
-    $('#removeApara').bind('click', removeAPara);
+    $('#removePara').bind('click', removeAPara);
     
     $('#show').css('visibility', 'hidden');
     
@@ -24,7 +24,7 @@ $("document").ready(function() {
 
 function hideThePage(){
     $('#show').css('visibility', 'visible');
-    $('#div').hide('slide', {}, 2500);
+    $('div').hide('slide', {}, 2500);
     $('#show').show('fold', {}, 2500);
 }
 
@@ -34,23 +34,23 @@ function showThePage(){
 }
 
 function removeAPara(){
-    $('#randPara').remove();
+    $('#randPara p:last').remove();
 }
 
 function addAPara(){
-    $('#randPara').append('<p>Click me.</p>');
+    $('#randPara').append('<p>Good I hope so.</p>');
 }
 
 function replaceWText(){
-    $('#randPara').html('<h1></h1>');
+    $('#randPara').html('<h1>Hows it going?</h1>');
 }
 
 function mouseOverMe() {
-    $("p").html("Jquery");
+    $("h1").html("Jquery");
 }
 function mouseOutMe() {
-    $('h1').html('Jquery');
+    $('h1').html('is cool.');
 }
 function mouseClick() {
-    $('p').html('');
+    $('p').html('Hello');
 }
