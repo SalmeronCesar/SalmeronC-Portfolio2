@@ -6,70 +6,77 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <!--This is the Title pf the page-->
+        <!--This is the Title of the page-->
         <title>Jquery Page</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-           <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-         <link type="text/css" rel="stylesheet" href="css/custom-style.css">
+        <link type="text/css" rel="stylesheet" href="css/custom-style.css">
     </head>
     <body id="Jquery">
+        <!--Here we have the custom cursor-->
         <style type="text/css">body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-1/cur1.ani), url(http://cur.cursors-4u.net/cursors/cur-1/cur1.png), progress !important;}</style><a href="http://www.cursors-4u.com/cursor/2005/04/21/cur1-11.html" target="_blank" title="Electricity Lightning"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Electricity Lightning" style="position:absolute; top: 0px; right: 0px;" /></a>
         <!--Is saying welcome and when you "hide" and press on this "Welcome" button the website will reappear-->
         <button id="show">Welcome</button>
         <div class="yeah">
+            <!--These are 1st header and 2nd header-->
             <h1>Jquery</h1>
+            <h2>Hello my name is Cesar Salmeron and we are learning computer science.</h2>
             <ul class="nav nav-pills">
-             <!--li is basiclly another way to say <a but in a different version 
-             and the html links are links connected to the project making a nav bar.
-             Also class="active is really saying current link but in a different version-->
-            <li class="active"><a href="jquery.html">Jquery</a></li>
-            <li><a href="index.html">About Me</a></li>
-            <li><a href="projects.html">Project</a></li>
-            <li><a href="technology.html">Technology</a></li>
-        </ul>
+                <!--li is basiclly another way to say <a but in a different version 
+                and the html links are links connected to the project making a nav bar.
+                Also class="active is really saying current link but in a different version-->
+                <li class="active"><a href="jquery.html">Jquery</a></li>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="projects.html">Project</a></li>
+                <li><a href="technology.html">Technology</a></li>
+            </ul>
             <div class="container">
                 <!--This is a container which sets a box around the whole page-->
-            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-	<div class="flipper">
-		<div class="front">
-			Jquery is a small JavaScript Library and the purpose of
-                        using it is to make it easier to use JavaScript on your 
-                        website.
-		</div>
-            <!--This is the front of the flipper side and the text above will appear on the front-->
-		<div class="back">
-                    <a><img src="http://brandonrp.com/wp-content/uploads/2013/02/jquery-modern-logo.jpg">
-			<!--Jquery is a small JavaScript Library and the purpose of
-                        using it is to make it easier to use JavaScript on your 
-                        website.-->
-		</div>
-            <!--This is the back flipper and the text above will appear on the back-->
-	</div>
-</div>
-                <!--ReplaceWText the text with the one we put in Jquery-->
-                <!--RemovePara, this removes the paragraph in this case Jquery-->
-                <!--randPara adds another paragraph-->
-                <!--hide hides the website-->
-            <p id="replaceWText">Jquery</p>
-            <p id="removePara">Jquery</p>
-            <p id="randPara">RandPara</p>
-            <p></p>
-            <p id="hide"> hide</p>
-        </div>
-        
-        <div id="Portfolio3">
-            <h3>1st</h3>
-            <p>First</p>
-             <h3>2nd</h3>
-            <p>Second</p>
-             <h3>3rd</h3>
-            <p>Third</p>
-        </div>
-            
-        <script type="text/javascript" src="script.js"></script>
-        <div></div>
-    </body>
-</html>
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front">
+                            Jquery is a small JavaScript Library and the purpose of
+                            using it is to make it easier to use JavaScript on your 
+                            website.
+                        </div>
+                        <!--This is the front of the flipper side and the text above will appear on the front-->
+                        <div class="back">
+                            <a><img src="http://brandonrp.com/wp-content/uploads/2013/02/jquery-modern-logo.jpg">
+                                </div>
+                                <!--This is the back flipper and the text above will appear on the back-->
+                                </div>
+                                </div>
+                                <!--ReplaceWText the text with the one we put in Jquery-->
+                                <!--RemovePara, this removes the paragraph in this case Jquery-->
+                                <!--randPara adds another paragraph-->
+                                <!--hide hides the website-->
+                                <p id="replaceWText">Click me.</p>
+                                <p id="removePara">Remove</p>
+                                <p id="randPara">Add</p>
+                                <p></p>
+                                <p id="hide"> hide</p>
+                        </div>
+                        <!--This is my Portfolio id tag with also the headers 3 and
+                        their paragraphs.-->
+                        <div id="Portfolio3">
+                            <h3>1st</h3>
+                            <p>This is my current project that I am working on.</p>
+                            <h3>2nd</h3>
+                            <p>This is my Jquery page.</p>
+                            <h3>3rd</h3>
+                            <p>Enjoy.</p>
+                            <!--Here is draggable.Draggable is an id in which you 
+                            can move any image anywhere around the screen when on
+                            the website-->
+                            <div id="draggable" class="ui-widget-content">
+                <img src="https://s-media-cache-ak0.pinimg.com/236x/07/4c/e4/074ce4f6bf78abf294064f8166f80fcb.jpg" 
+                     alt="https://s-media-cache-ak0.pinimg.com/236x/07/4c/e4/074ce4f6bf78abf294064f8166f80fcb.jpg">
+                        </div>
+                        <!--This connects to script.js-->
+                        <script type="text/javascript" src="script.js"></script>
+                        <div></div>
+                        </body>
+                        </html>

@@ -45,33 +45,33 @@ p {
 }
 /*h1 is the 1st header in my index page and puts it more to the left and changes the 
 font style and size and also changes the color. */
- h1{
+h1{
     margin-left: 15%;
     font-style: oblique;
     font-size: x-large;
     color: whitesmoke;
 }
 /*# is a link that is a id and goes to the 1st header and changes the font size and style. */
- #project
+#project
 h1{
     font-size: xx-large;
-    font-style: oblique
+    font-style: oblique;
 }
 /*is a link  to the technology page that changes the color and font size and style thats connected to the paragraph.*/
- #technology p {
+#technology p {
     color: whitesmoke;
     font-size: xx-large;
     font-style: oblique;
 }
 
- #technology
+#technology
 img {
     width: 250px;
     height: auto;
 }
 
 #project {
-    background-image: url("http://images.autospeed.pics/automobile/1080phdwallpapers.com/wp-content/uploads/2011/06/green-nuclear-danger-1080p-hd-wallpaper.jpg");
+    background-image: url("http://wallpaperswa.com/thumbnails/detail/20120602/minimalistic%20textures%20backgrounds%20simple%20background%201920x1080%20wallpaper_wallpaperswa.com_25.jpg");
     background-size: cover;
 }
 
@@ -104,74 +104,92 @@ h2{
 }
 
 #Jquery{
-    background-image: url("http://www.quicklycode.com/wp-content/images/jquery_wallpaper3.jpg");
+    background-image: url("http://3.bp.blogspot.com/-qvzw1ZBmwnY/TnmW2F5TNfI/AAAAAAAAAKE/1m7GerGZDFE/s1600/Beautiful-Sunset-Background-Wallpapers12.png");
     background-size: cover;
 }
 
 #draggable{
-    
+width: 25px;
+height: 25px;
+padding:0px;
 }
 
 /* entire container, keeps perspective */
 .flip-container {
-	perspective: 1000;
+    perspective: 1000;
 }
-	/* flip the pane when hovered */
-	.flip-container:hover .flipper, .flip-container.hover .flipper {
-		transform: rotateY(180deg);
-	}
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
 
 .flip-container, .front, .back {
-	width: 320px;
-	height: 480px;
+    width: 320px;
+    height: 480px;
 }
 
 /* flip speed goes here */
 .flipper {
-	transition: 0.6s;
-	transform-style: preserve-3d;
+    transition: 0.6s;
+    transform-style: preserve-3d;
 
-	position: relative;
+    position: relative;
 }
 
 /* hide back of pane during swap */
 .front, .back {
-	backface-visibility: hidden;
+    backface-visibility: hidden;
 
-	position: absolute;
-	top: 0;
-	left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 /* front pane, placed above back */
 .front {
-	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateY(0deg);
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
 }
 
 /* back, initially hidden pane */
 .back {
-	transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 .flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper {
-	transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 .vertical.flip-container {
-	position: relative;
+    position: relative;
 }
 
-	.vertical .back {
-		transform: rotateX(180deg);
-	}
+.vertical .back {
+    transform: rotateX(180deg);
+}
 
-	.vertical.flip-container .flipper {
-		transform-origin: 100% 213.5px; /* half of height */
-	}
+.vertical.flip-container .flipper {
+    transform-origin: 100% 213.5px; /* half of height */
+}
 
-	.vertical.flip-container:hover .flipper {
-		transform: rotateX(-180deg);
-	}
-        
+.vertical.flip-container:hover .flipper {
+    transform: rotateX(-180deg);
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+}
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+}
+#project
+img {
+    width: 700px;
+    height: auto;
+}
