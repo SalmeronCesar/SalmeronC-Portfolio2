@@ -63,7 +63,7 @@ h1{
     font-size: xx-large;
     font-style: oblique;
 }
-
+/*is a link to the technology page that changes the width and height in an image*/
 #technology
 img {
     width: 250px;
@@ -79,7 +79,7 @@ img {
     width: 200px;
     height: auto;
 }
-
+/*Here the 2nd header is being changes as in the color,font style and font size.*/
 h2{
     color: whitesmoke;
     font-style: oblique;
@@ -103,15 +103,23 @@ h2{
     margin-left: 30%;
 }
 
+.jumbotron h1{
+    color: whitesmoke;
+}
+
+.jumbotron {
+    color: whitesmoke;
+}
+/*Here this # symbol connects to the Jquery "id" and puts a background image and bsckground size.*/
 #Jquery{
     background-image: url("http://3.bp.blogspot.com/-qvzw1ZBmwnY/TnmW2F5TNfI/AAAAAAAAAKE/1m7GerGZDFE/s1600/Beautiful-Sunset-Background-Wallpapers12.png");
     background-size: cover;
 }
-
+/*Here this # symbol connects to the draggable "id" and puts a new width,height and zero padding.*/
 #draggable{
-width: 25px;
-height: 25px;
-padding:0px;
+    width: 25px;
+    height: 25px;
+    padding:0px;
 }
 
 /* entire container, keeps perspective */
@@ -156,7 +164,7 @@ padding:0px;
 .back {
     transform: rotateY(180deg);
 }
-
+/*Here if you hover over the flipper container it will flip from front to back*/
 .flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper {
     transform: rotateY(180deg);
 }
@@ -164,7 +172,7 @@ padding:0px;
 .vertical.flip-container {
     position: relative;
 }
-
+/*Here this is the back flipper.*/
 .vertical .back {
     transform: rotateX(180deg);
 }
@@ -172,17 +180,18 @@ padding:0px;
 .vertical.flip-container .flipper {
     transform-origin: 100% 213.5px; /* half of height */
 }
-
+/*This make it turn negative 180 degrees and makes it flip back*/
 .vertical.flip-container:hover .flipper {
     transform: rotateX(-180deg);
 }
-
+/*Here the 1st header is taking in changes as in the text align,font size and the font style.*/
 h1{
     text-align: center;
     font-size: xx-large;
     font-style: oblique;
+    color: whitesmoke;
 }
-
+/*Here the 2nd header is taking in changes as in the text align,font size and the font style.*/
 h2{
     text-align: center;
     font-size: xx-large;

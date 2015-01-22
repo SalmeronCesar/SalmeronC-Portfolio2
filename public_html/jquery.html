@@ -14,6 +14,7 @@ and open the template in the editor.
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
         <link type="text/css" rel="stylesheet" href="css/custom-style.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
     </head>
     <body id="Jquery">
         <!--Here we have the custom cursor-->
@@ -21,9 +22,6 @@ and open the template in the editor.
         <!--Is saying welcome and when you "hide" and press on this "Welcome" button the website will reappear-->
         <button id="show">Welcome</button>
         <div class="yeah">
-            <!--These are 1st header and 2nd header-->
-            <h1>Jquery</h1>
-            <h2>Hello my name is Cesar Salmeron and we are learning computer science.</h2>
             <ul class="nav nav-pills">
                 <!--li is basiclly another way to say <a but in a different version 
                 and the html links are links connected to the project making a nav bar.
@@ -33,9 +31,12 @@ and open the template in the editor.
                 <li><a href="projects.html">Project</a></li>
                 <li><a href="technology.html">Technology</a></li>
             </ul>
+            <!--These are 1st header and 2nd header-->
+            <h1>Jquery</h1>
+            <h2>Hello my name is Cesar Salmeron and we are learning computer science.</h2>
             <div class="container">
                 <!--This is a container which sets a box around the whole page-->
-                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flip-container">
                     <div class="flipper">
                         <div class="front">
                             Jquery is a small JavaScript Library and the purpose of
@@ -44,39 +45,41 @@ and open the template in the editor.
                         </div>
                         <!--This is the front of the flipper side and the text above will appear on the front-->
                         <div class="back">
-                            <a><img src="http://brandonrp.com/wp-content/uploads/2013/02/jquery-modern-logo.jpg">
-                                </div>
-                                <!--This is the back flipper and the text above will appear on the back-->
-                                </div>
-                                </div>
-                                <!--ReplaceWText the text with the one we put in Jquery-->
-                                <!--RemovePara, this removes the paragraph in this case Jquery-->
-                                <!--randPara adds another paragraph-->
-                                <!--hide hides the website-->
-                                <p id="replaceWText">Click me.</p>
-                                <p id="removePara">Remove</p>
-                                <p id="randPara">Add</p>
-                                <p></p>
-                                <p id="hide"> hide</p>
+                            <img src="http://brandonrp.com/wp-content/uploads/2013/02/jquery-modern-logo.jpg">
                         </div>
-                        <!--This is my Portfolio id tag with also the headers 3 and
-                        their paragraphs.-->
-                        <div id="Portfolio3">
-                            <h3>1st</h3>
-                            <p>This is my current project that I am working on.</p>
-                            <h3>2nd</h3>
-                            <p>This is my Jquery page.</p>
-                            <h3>3rd</h3>
-                            <p>Enjoy.</p>
-                            <!--Here is draggable.Draggable is an id in which you 
-                            can move any image anywhere around the screen when on
-                            the website-->
-                            <div id="draggable" class="ui-widget-content">
-                <img src="https://s-media-cache-ak0.pinimg.com/236x/07/4c/e4/074ce4f6bf78abf294064f8166f80fcb.jpg" 
-                     alt="https://s-media-cache-ak0.pinimg.com/236x/07/4c/e4/074ce4f6bf78abf294064f8166f80fcb.jpg">
-                        </div>
-                        <!--This connects to script.js-->
-                        <script type="text/javascript" src="script.js"></script>
-                        <div></div>
-                        </body>
-                        </html>
+                        <!--This is the back flipper and the text above will appear on the back-->
+                    </div>
+                </div>
+                <!--ReplaceWText the text with the one we put in Jquery-->
+                <!--RemovePara, this removes the paragraph in this case Jquery-->
+                <!--randPara adds another paragraph-->
+                <!--hide hides the website-->
+                <p id="replaceWText">Click me.</p>
+                <p id="removePara">Remove</p>
+                <p id="randPara">Add</p>
+                <p></p>
+                <p id="hide"> hide</p>
+            </div>
+            <!--This is my Portfolio id tag with also the headers 3 and
+            their paragraphs.-->
+            <div id="Portfolio3">
+                <h3>1st</h3>
+                <p>This is my current project that I am working on.</p>
+                <h3>2nd</h3>
+                <p>This is my Jquery page.</p>
+                <h3>3rd</h3>
+                <p>Enjoy.</p>
+                <!--Here is draggable.Draggable is an id in which you 
+                can move any image anywhere around the screen when on
+                the website-->
+                <div id="draggable" class="ui-widget-content">
+                    <img src="https://s-media-cache-ak0.pinimg.com/236x/07/4c/e4/074ce4f6bf78abf294064f8166f80fcb.jpg" 
+                         alt="https://s-media-cache-ak0.pinimg.com/236x/07/4c/e4/074ce4f6bf78abf294064f8166f80fcb.jpg">
+                </div>
+            </div>
+        </div>
+        <!--This connects to script.js-->
+        <script type="text/javascript" src="script.js"></script>
+
+    </body>
+</html>

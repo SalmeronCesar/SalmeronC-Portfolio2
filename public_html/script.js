@@ -1,31 +1,31 @@
 $("document").ready(function() {
     /*!These 2 lines of code are telling you what background color you want.In my 
-  case I dont want a color because I have a background image already*/
+     case I dont want a color because I have a background image already*/
     $(".yeah").css("background-color", "");
-    
+
     $('p:last').css({"background-color": "", "color": ""});
-/*!Here in the 1st header mouseover function and mouseout function are taking place
- * and when you hover over a specific area the function will take place*/
+    /*!Here in the 1st header mouseover function and mouseout function are taking place
+     * and when you hover over a specific area the function will take place*/
     $("h1").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
-/*!Here in the 1st header mouseClick function is taking place and so if you click 
- * on a specific place the function has been activated*/
+    /*!Here in the 1st header mouseClick function is taking place and so if you click 
+     * on a specific place the function has been activated*/
     $('h1').bind('click', mouseClick);
-/*!Here if you click on a specific area it will replace that certain text*/
+    /*!Here if you click on a specific area it will replace that certain text*/
     $('#replaceWText').bind('click', replaceWText);
-/*!Here if you click on a certain place you will add a sentence,paragraph and or a word*/
+    /*!Here if you click on a certain place you will add a sentence,paragraph and or a word*/
     $('#randPara').bind('click', addAPara);
-/*!Here if you click on a certain area you will remove a sentence,paragraph and or a word*/
+    /*!Here if you click on a certain area you will remove a sentence,paragraph and or a word*/
     $('#removePara').bind('click', removeAPara);
-/*!Here it hides a text*/
+    /*!Here it hides a text*/
     $('#show').css('visibility', 'hidden');
-/*!Here if you click on hide it will hide the whole website*/
+    /*!Here if you click on hide it will hide the whole website*/
     $('#hide').bind('click', hideThePage);
-/*!Here if you click on a button "Welcome" the page will reappear*/
+    /*!Here if you click on a button "Welcome" the page will reappear*/
     $('#show').bind('click', showThePage);
 
     $('#Portfolio3').accordion({header: "h3"});
     /*!Here draggable is a function where you can move images around the screen*/
-    $(function(){
+    $(function() {
         $("#draggable").draggable();
     });
 });
